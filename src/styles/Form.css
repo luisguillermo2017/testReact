@@ -1,0 +1,23 @@
+/* Form.css */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilos para monitores y iPads */
+  @media (min-width: 768px) {
+    .form-container {
+      /* padding: 20px;
+      margin:20px; */
+    }
+  }
+  
+  /* Estilos para celulares */
+  @media (max-width: 767px) {
+    .form-container {
+      /* padding: 10px;
+      margin:20px; */
+    }
+  }
